@@ -1,0 +1,31 @@
+.ourCourses{
+    width: 100%;
+    height: auto;
+    min-height: 85vh;
+    text-align: center;
+}
+
+.ourCourses h1{
+    margin-top: 80px;
+    font-size: 2.4rem;
+    margin-bottom: 30px;
+}
+
+.ourCourses__top{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.ourCourses__footer{
+    margin-top: 80px;
+}
+
+.ourCourses__footer p{
+    font-size: 1.3rem;
+}
+
+.ourCourses__footer p a{
+    text-decoration: none;
+    color: #000;
+}

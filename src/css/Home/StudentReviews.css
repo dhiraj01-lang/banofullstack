@@ -1,0 +1,72 @@
+.studentReviews {
+  background-color: #150c21;
+  width: 100%;
+  height: auto;
+  min-height: 100vh;
+  margin-top: 50px;
+}
+
+.studentReviews h1 {
+  color: #fff;
+  text-align: center;
+  padding-top: 100px;
+}
+
+.studentReviews h1 span {
+  color: #705df2;
+}
+
+.studentReviews__titleNot {
+  opacity: 0;
+  transform: translateY(-50%);
+}
+
+.studentReviews__titleVisible {
+  opacity: 1;
+  transition: all 1s ease-in;
+  transform: translateY(0%);
+}
+
+.studentReviewsCards{
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+}
+
+.studentReviewsCard__row{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.studentReviewCard{
+    width: 25%;
+    min-height: 50%;
+    background-color: white;
+    padding: 30px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.studentReviewsCard__row{
+    opacity: 0;
+    transform: translateY(150px);
+    transition: all 0.7s ease-in;
+}
+
+.studentReviewsCard__row--visible{
+    opacity: 1;
+    transform: translateY(0px);
+}
+
+.studentReview__author{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.studentReview__name{
+    margin-left: 20px;
+}

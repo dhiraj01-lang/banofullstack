@@ -1,0 +1,33 @@
+.coursePage{
+    width: 100%;
+    height: auto;
+    min-height: 100vh;
+}
+
+
+.coursePage__header{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+
+.coursePage__headerLeft{
+    width: 45%;
+    margin: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.coursePage__headerRight{
+    width: 55%;
+    background-color: #F2E5FF;
+    margin: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}

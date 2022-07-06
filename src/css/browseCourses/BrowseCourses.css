@@ -1,0 +1,123 @@
+.browseCourses{
+    width: 100%;
+    margin-top: 50px;
+    height: 150vh;
+}
+
+.browseCourses__yourCourses{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10.5%;
+}
+
+.browseCourses__innerPart{
+    width: 95%;
+    background-color: #150C21;
+    border-radius: 5px;
+}
+
+.browseCourses__innerPart .browseCourses__title{
+    color: #fff;
+    margin: 10px 20px;
+}
+
+.browseCourses__courseArea{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.browseCourses__bestCourses{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+}
+
+.browseCourses__bestinnerPart{
+    width: 95%;
+    border-radius: 5px;
+}
+
+.mt-20{
+    margin-top: 10px !important;
+}
+
+.browseCourses__testimonials{
+    margin-top: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+    color: #fff;
+    text-align: center;
+}
+
+.browseCourses__testimonialsInner{
+    width: 95%;
+    background-color: #150C21;
+    border-radius: 5px;
+    height: auto;
+    min-height: 20vh;
+}
+
+.browseCourses__testimonials h2{
+    margin-top: 20px;
+}
+
+.testimonials__companyRow{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.testimonials__companyRow img{
+    width: 10%;
+}
+
+.browseCourses__searchArea{
+    margin-top: 60px;
+    margin-bottom: -50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.browseCourses__search{
+    width: 90%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    position: relative;
+}
+
+.browseCourses__search input{
+    padding: 5px 10px;
+    width: 20%;
+    font-family: inherit;
+    font-size: 1rem;
+    border: 3px solid #7261f281;
+    outline: 0;
+    border-radius: 5px;
+}
+
+.browseCourses__search input:focus{
+    border: 3px solid #7161f2;
+    background-color: rgb(240, 240, 240);
+}
+
+.search__icon{
+    position: absolute;
+    top: 9px;
+    right: 9px;
+    fill: gray !important;
+}
+

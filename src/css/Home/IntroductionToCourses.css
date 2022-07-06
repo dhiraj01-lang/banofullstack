@@ -1,0 +1,127 @@
+.introduction{
+    width: 100%;
+    height: auto;
+    min-height: 100vh;
+    background-color: #150C21;
+    text-align: center;
+    padding-top: 10vh;
+}
+
+.introduction__title h1{
+    color: #fff;
+    font-size: 2.5rem;
+}
+
+.introduction__title h1 span{
+    color: #705df2;
+}
+
+.introduction__message{
+    margin-top: 60px;
+    text-align: center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.introduction__message p{
+    color: #fff;
+    font-size: 1.2rem;
+    width: 50%;
+}
+
+.introduction__count{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    color: #fff;
+}
+
+.introduction__count--container{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.introduction__count h3{
+    font-size: 3rem;
+}
+
+.introduction__count p{
+    font-size: 1.4rem;
+}
+
+.introduction__count--1{
+    border-right: 1px solid gray;
+    padding: 0 50px;
+}
+
+.introduction__count--2{
+    border-right: 1px solid gray;
+    padding: 0 50px;
+}
+
+.introduction__count--3{
+    padding: 0 50px;
+}
+
+.introduction__title--not{
+    opacity: 0;
+    transform: translateY(-100%);
+}
+
+.introduction__title--visible{
+    opacity: 1;
+    transition: all 1s ease-in;
+    transform: translateY(0%);
+}
+
+.introduction__video{
+    padding: 50px 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.introduction__video--thumbnail{
+    position: absolute;
+    width: 100%;
+}
+
+.introduction__video--thumbnail img{
+    width: 50%;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.introduction__video--thumbnail svg{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    fill: #fff;
+    width: 10rem !important;
+    height: 10rem !important;
+    cursor: pointer;
+}
+
+
+.introduction__video video{
+    width: 50%;
+    border-radius: 10px;
+}
+
+.introduction__footer{
+    color: #fff;
+    padding-bottom: 50px;
+    font-size: 1.4rem;
+}
+
+.introduction__footer p{
+    margin-bottom: 20px;
+}

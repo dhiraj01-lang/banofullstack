@@ -1,0 +1,128 @@
+.coursePreview{
+    width: 100%;
+    height: 100%;
+}
+
+.coursePreview__video{
+    margin-top: 15%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.coursePreview__video video{
+    width: 80%;
+}
+
+.coursePreview__video--thumbnail img{
+    position: absolute;
+    width: 80%;
+    top: 0;
+    left: 95px;
+    max-height: 420px;
+    min-height: 415px;
+}
+
+.coursePreview__video--thumbnail svg{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    fill: #fff;
+    width: 10rem !important;
+    height: 10rem !important;
+    cursor: pointer;
+}
+
+.coursePreview__details{
+    text-align: center;
+    margin-top: 40px;
+}
+
+.coursePreview__details h1{
+    font-size: 1.7rem;
+}
+
+.coursePreview__info{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    text-align: left;
+    margin-top: 30px;
+}
+
+.coursePreview__info p{
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.coursePreview__info p img{
+    width: 30px;
+    margin-right: 10px;
+}
+
+.coursePreview__left{
+    margin-left: 50px;
+}
+
+.coursePreview__right{
+    margin-right: 50px;
+}
+
+.coursePreview__bottom{
+    margin-top: 30px;
+}
+
+.coursePreview__bottom button {
+    padding: 15px 30px;
+    margin-left: 10px;
+    border-radius: 20px;
+    width: 30%;
+    outline: 0;
+    border: 0;
+    font-size: 1.5rem;
+    cursor: pointer;
+    box-shadow: 0px 7px 24px -5px rgba(0, 0, 0, 0.15);
+    -webkit-box-shadow: 0px 7px 24px -5px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 0px 7px 24px -5px rgba(0, 0, 0, 0.15);
+    background-color: #7161f2;
+    color: #fff;
+    font-weight: bold;
+    font-family: inherit;
+  }
+
+  .coursePreview__progressionDiv{
+      margin-top: 50px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+  }
+
+  .coursePreview__progression{
+      width: 80%;
+      height: 1vh;
+      background-color: #fff;
+      border: 2px solid #7161f2;
+      border-radius: 100px;
+      margin-bottom: 15px;
+      position: relative;
+  }
+  
+
+  .coursePreview__progressionInner{
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      background-color: #7161f2;
+      border-radius: inherit;
+      transition: all 0.2s ease-in;
+  }
+

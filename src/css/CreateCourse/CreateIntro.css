@@ -1,0 +1,105 @@
+:root {
+	--background: #515FF4;
+	--primary: #515FF4;
+	--secondary: #7D97F4;
+	--third: #E66A62;
+}
+
+.createIntro{
+    width: 100%;
+    height: auto;
+    min-height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.createIntro__bottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    width: 60%;
+    margin-top: 50px;
+    z-index: 1;
+}
+
+.createIntro__bottom h1{
+    margin-bottom: 20px;
+}
+
+.button__createIntro__here{
+    width: 300px;
+    font-size: 1.4rem;
+}
+
+.createIntro__top{
+    margin-top: -150px;
+    z-index: 1;
+}
+
+.shape, .shape1, .shape2, .shape3 {
+    background: linear-gradient(45deg, var(--primary) 0%, var(--secondary) 100%);
+ animation: morph 8s ease-in-out infinite;
+ opacity: 0.6;
+ z-index: -1;
+ border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+ height: 400px;
+ transition: all 1s ease-in-out;
+ width: 400px;
+ z-index: 5;
+ position: absolute;
+}
+
+.shape{
+    top: 40px;
+    left: 40px;
+    transform: scale(0.8);
+ animation: morph 5s ease-in-out infinite;
+}
+
+.shape1{
+    top: 20px;
+    right: -100px;
+    transform: scale(0.9);
+ animation: morph 9s ease-in-out infinite;
+}
+
+.shape2{
+    bottom: -150px;
+    right: -60px;
+ animation: morph 4s ease-in-out infinite;
+}
+
+.shape3{
+    bottom: -50px;
+    left: -50px;
+    transform: scale(0.5);
+ animation: morph 8s ease-in-out infinite;
+}
+
+.createIntro__buttonContainer{
+    margin-bottom: -100px;
+    margin-top: 50px;
+}
+
+@keyframes morph {
+ 0% {
+           border-radius:  60% 40% 30% 70% / 60% 30% 70% 40%;
+           background: linear-gradient(45deg, var(--primary) 0%, var(--secondary) 100%);
+   } 
+   
+   50% {
+           border-radius:  30% 60% 70% 40% / 50% 60% 30% 60%;
+           background: linear-gradient(45deg, var(--third) 0%, var(--secondary) 100%);
+   }
+ 
+   100% {
+       border-radius:  60% 40% 30% 70% / 60% 30% 70% 40%;
+       background: linear-gradient(45deg, var(--primary) 0%, var(--secondary) 100%);
+   } 
+}

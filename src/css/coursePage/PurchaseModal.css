@@ -1,0 +1,145 @@
+.purchaseModal{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 999999;
+    background-color: rgba(0,0,0,0.9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.purchaseModal__inner{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1000000;
+}
+
+.purchaseModal__main{
+    width: 80%;
+    height: 80vh;
+    background-color: #fff;
+    z-index: 1200000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.purchaseModal__right{
+    margin-right: 15%;
+}
+
+.purchaseModal__left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.purchaseModal__leftInner{
+    width: 90%;
+    height: 90%;
+    background-color: #F2E5FF;
+}
+
+.rccs__card{
+    width: 400px !important;
+    height: 250px !important;
+}
+
+.purchaseCourse__details{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10%;
+    align-items: center;
+}
+
+.purchaseModalLeft__upper{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.purchaseModalLeft__upper h2{
+    margin-left: 20px;
+    width: 70%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.purchaseModalLeft__upper h2 img{
+    width: 30px;
+    margin-right: 10px;
+}
+
+.purchaseModalLeft__upper h3{
+    margin-right: 20px;
+    font-size: 1.5rem;
+}
+
+.purchaseModal__middle{
+    margin-top: 75px;
+    margin-left: 12%;
+}
+
+.purchaseModal__inputArea{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.purchaseModal__inputArea input{
+    border: 0;
+    outline: 0;
+    background-color: transparent;
+    border-bottom: 2px solid #888;
+    padding: 10px;
+    width: 70%;
+    font-size: 1.4rem;
+    font-family: inherit;
+    margin-left: 10px;
+}
+
+.purchaseModal__inputArea input:focus{
+    border-bottom: 2px solid #000;
+}
+
+.purchaseModal__inputArea img{
+    width: 60px;
+}
+
+.purchaseModal__down{
+    width: 100%;
+    height: auto;
+}
+
+.purchaseModal__down p{
+    width: 80%;
+    margin-left: 5%;
+    margin-top: 50px;
+}
+
+.purchaseModal__button{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.purchaseModal__buttonHere{
+    width: 80%;
+    font-size: 1.3rem;
+}

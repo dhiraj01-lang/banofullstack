@@ -1,0 +1,98 @@
+.homeNav {
+  width: 100%;
+  height: auto;
+  z-index: 999;
+}
+
+.homeNav__left {
+  position: absolute;
+  top: -80px;
+  left: -50px;
+}
+
+.homeNav__left img {
+  height: 20rem;
+  width: 20rem;
+  cursor: pointer;
+}
+
+.homeNav__right {
+  position: fixed;
+  top: 60px;
+  right: 60px;
+  display: flex;
+  z-index: 999;
+}
+
+.homeNav__button {
+  padding: 15px 30px;
+  margin-left: 10px;
+  border-radius: 20px;
+  outline: 0;
+  border: 0;
+  font-size: 1rem;
+  cursor: pointer;
+  box-shadow: 0px 7px 24px -5px rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: 0px 7px 24px -5px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 0px 7px 24px -5px rgba(0, 0, 0, 0.15);
+}
+
+.btn--blue {
+  background-color: #7161f2;
+  color: #fff;
+  font-weight: bold;
+}
+
+.btn--primary {
+  background: #fff;
+  color: #7161f2;
+  font-weight: bold;
+  position: relative;
+  z-index: 1;
+}
+
+.btn--primary::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background-color: #eef3fb;
+  border-radius: 20px;
+  z-index: 0;
+  transition: all 0.3s ease-in;
+}
+
+.btn--primary:hover::before {
+  width: 100%;
+}
+
+.btn--primary span {
+  position: relative;
+  z-index: 1;
+}
+
+@media (max-width: 800px) {
+  .homeNav__right {
+    flex-direction: column;
+  }
+  .homeNav__left {
+    left: 15px;
+  }
+  .homeNav__right {
+    top: 40px;
+    right: 30px;
+    justify-content: center;
+    align-items: flex-end;
+  }
+  .btn--blue {
+    margin-bottom: 10px;
+  }
+}
+
+@media(max-width: 500px){
+    .homeNav__button{
+        padding: 12px 20px;
+    }
+}
